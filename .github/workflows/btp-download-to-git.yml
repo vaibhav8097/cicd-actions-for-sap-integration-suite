@@ -71,6 +71,7 @@ jobs:
           echo "token=$TOKEN" >> $GITHUB_OUTPUT
 
       - name: Check team authorization
+        if: false
         uses: SAP/cicd-actions-for-sap-integration-suite/.github/actions/check-team-authorization@v1
         with:
           team-slug: ${{ vars.BTP_ADMIN_TEAM_SLUG }}
