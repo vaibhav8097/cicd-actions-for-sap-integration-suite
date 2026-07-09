@@ -89,9 +89,9 @@ jobs:
   btp-download-package:
     needs: [initialize]
     name: Download from BTP to GIT
-    uses: SAP/cicd-actions-for-sap-integration-suite/.github/workflows/download-btp-to-git.yml@v1
+    uses: SAP/cicd-actions-for-sap-integration-suite/.github/workflows/download-btp-to-git.yml@main
     with:
-       workflow-ref: v1
+       workflow-ref: main
        source-env: ${{ inputs.source-env }}
        target-ref: download
        ids: ${{ inputs.ids }}
