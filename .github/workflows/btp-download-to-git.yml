@@ -23,7 +23,8 @@ on:
         required: true
         type: choice
         options:  #!cicd:target-env-options!
-          - ""
+          - DEV
+          - TST
       mode:
         description: "Mode IntegrationPackages/PartnerDirectory"
         required: true
