@@ -1,0 +1,16 @@
+{
+  "PackageIntegrationFlowDeployments": {
+    "PackageName": "HTTP_ContentModifier_Demo",
+    "PackageID": "HTTPContentModifierDemo",
+    "IntegrationFlows": [
+      {
+        "ArtifactID": "HTTP_ContentModifier_flow",
+        "ArtifactName": "HTTP_ContentModifier_flow",
+        "Deploy": "false",
+        "Rank": "100",
+        "LogLevel": "INFO",
+        "Runtimes": "iflmap"
+      }
+    ]
+  }
+}

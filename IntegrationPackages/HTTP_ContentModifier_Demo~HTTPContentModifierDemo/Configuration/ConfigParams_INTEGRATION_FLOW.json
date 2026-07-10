@@ -1,0 +1,23 @@
+{
+  "PackageIntegrationFlowParameters": {
+    "PackageName": "HTTP_ContentModifier_Demo",
+    "PackageID": "HTTPContentModifierDemo",
+    "Artifacts": [
+      {
+        "ArtifactID": "HTTP_ContentModifier_flow",
+        "ArtifactName": "HTTP_ContentModifier_flow",
+        "ArtifactType": "INTEGRATION_FLOW",
+        "Parameters": [
+          {
+            "DataType": "xsd:string",
+            "Description": null,
+            "ParameterKey": "SAP_ProfileId",
+            "ParameterValues": {
+              "Default": "iflmap"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
