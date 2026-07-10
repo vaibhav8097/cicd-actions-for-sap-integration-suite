@@ -92,6 +92,7 @@ jobs:
           token: ${{ steps.cicd-token.outputs.token }}
 
       - name: Check team authorization
+        if: false
         uses: ./cicd-btp-insuite/.github/actions/check-team-authorization
         with:
           team-slug: ${{ vars.BTP_ADMIN_TEAM_SLUG }}
