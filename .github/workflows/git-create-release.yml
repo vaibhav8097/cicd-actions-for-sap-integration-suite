@@ -108,7 +108,7 @@ jobs:
     name: Create Release
     uses: SAP/cicd-actions-for-sap-integration-suite/.github/workflows/create-release.yml@v1
     with:
-      workflow-ref: v1
+      workflow-ref: main
       release-name: ${{ github.event.inputs.release-name }}
       simulation: ${{ github.event.inputs.simulation == 'true' }}
       git-cicd-orgrepo: ${{ needs.initialize.outputs.git-cicd-orgrepo }}
