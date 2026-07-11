@@ -221,7 +221,7 @@ jobs:
             echo "   → Using upload-artifact@v4"
           else
             echo "✅ Detected: GitHub Enterprise Server"
-            echo "   → Using upload-artifact@v3"
+            echo "   → Using upload-artifact@v4"
           fi
 
       - name: Upload built artifacts (v4 - GitHub Cloud)
