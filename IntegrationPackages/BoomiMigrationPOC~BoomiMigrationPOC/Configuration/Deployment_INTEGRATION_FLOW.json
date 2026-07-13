@@ -1,0 +1,24 @@
+{
+  "PackageIntegrationFlowDeployments": {
+    "PackageName": "BoomiMigrationPOC",
+    "PackageID": "BoomiMigrationPOC",
+    "IntegrationFlows": [
+      {
+        "ArtifactID": "HelloWorld1",
+        "ArtifactName": "HelloWorld1",
+        "Deploy": "false",
+        "Rank": "100",
+        "LogLevel": "INFO",
+        "Runtimes": "iflmap"
+      },
+      {
+        "ArtifactID": "test_flow",
+        "ArtifactName": "test_flow",
+        "Deploy": "false",
+        "Rank": "100",
+        "LogLevel": "INFO",
+        "Runtimes": "iflmap"
+      }
+    ]
+  }
+}

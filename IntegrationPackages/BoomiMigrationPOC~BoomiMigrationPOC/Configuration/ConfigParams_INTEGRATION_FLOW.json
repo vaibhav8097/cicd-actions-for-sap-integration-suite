@@ -1,0 +1,38 @@
+{
+  "PackageIntegrationFlowParameters": {
+    "PackageName": "BoomiMigrationPOC",
+    "PackageID": "BoomiMigrationPOC",
+    "Artifacts": [
+      {
+        "ArtifactID": "HelloWorld1",
+        "ArtifactName": "HelloWorld1",
+        "ArtifactType": "INTEGRATION_FLOW",
+        "Parameters": [
+          {
+            "DataType": "xsd:string",
+            "Description": null,
+            "ParameterKey": "SAP_ProfileId",
+            "ParameterValues": {
+              "Default": "iflmap"
+            }
+          }
+        ]
+      },
+      {
+        "ArtifactID": "test_flow",
+        "ArtifactName": "test_flow",
+        "ArtifactType": "INTEGRATION_FLOW",
+        "Parameters": [
+          {
+            "DataType": "xsd:string",
+            "Description": null,
+            "ParameterKey": "SAP_ProfileId",
+            "ParameterValues": {
+              "Default": "iflmap"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
